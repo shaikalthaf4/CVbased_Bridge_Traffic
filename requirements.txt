@@ -1,0 +1,6 @@
+openpifpaf==0.10.0
+opencv-python
+tqdm
+pandas
+Pillow
+glob3
