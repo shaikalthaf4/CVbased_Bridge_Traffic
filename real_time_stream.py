@@ -39,7 +39,7 @@ class RealTimeStream:
             cv2.resize(self.uiuc, None, fx=self.uiuc_v/np.shape(self.uiuc)[1], fy=self.uiuc_h/np.shape(self.uiuc)[0], interpolation=cv2.INTER_AREA), cv2.COLOR_BGR2RGB)
 
         # Initialize plan view visualization variables
-        self.bridgeplanimg = cv2.imread('bridge_plan_new.png', 1)
+        self.bridgeplanimg = cv2.imread('bridge_plan_new.jpg', 1)
         self.bridgeplanimg = cv2.rotate(self.bridgeplanimg, cv2.cv2.ROTATE_90_CLOCKWISE)
         self.bridgepts = np.array([[315, 225], [315, 892], [558, 892], [558, 225]])
         self.measurepts = np.array([[206, 143], [158, 269], [490, 274], [366, 147]])
