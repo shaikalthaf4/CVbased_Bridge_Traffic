@@ -1,4 +1,4 @@
-# Real-Time People Detection and Visualization
+# CV based Real-Time Bridge People Detection and Visualization 
 This repository contains Python scripts for real-time people detection and visualization for Bridge Traffic monitoring using the OpenPifPaf library. The project allows real-time pose detection on video streams and provides options to visualize these detections both in the video feed and in a plan view.
 
 ## Features
