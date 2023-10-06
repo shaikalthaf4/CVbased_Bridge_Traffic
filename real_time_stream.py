@@ -23,10 +23,10 @@ class RealTimeStream:
 
 
         # Initialize RTSP stream configuration
-        self.username = 'smartcam'
-        self.password = 'ceebridge'
+        self.username = 'xyz'
+        self.password = 'abc'
         self.endpoint = 'live'
-        self.ip = '172.16.121.60'
+        self.ip = 'abc.abc.ab.bb'
         self.stream = cv2.VideoCapture(f'rtsp://{self.username}:{self.password}@{self.ip}/{self.endpoint}')
         self.stream.set(cv2.CAP_PROP_BUFFERSIZE, 1)
         self.stream.set(cv2.CAP_PROP_POS_AVI_RATIO, 0)
